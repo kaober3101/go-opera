@@ -28,6 +28,7 @@ import (
 	"github.com/Fantom-foundation/go-opera/opera/genesis"
 	"github.com/Fantom-foundation/go-opera/opera/genesisstore"
 	"github.com/Fantom-foundation/go-opera/utils/iodb"
+	_ "github.com/kaober3101/go-opera/integration/makegenesis/wiu"
 )
 
 type GenesisBuilder struct {
